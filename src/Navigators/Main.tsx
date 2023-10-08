@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import { ExampleContainer, Favourite, Home, Location, Profile } from '@/Containers'
 import { BottomDesignNavi } from '@/Components'
 const Tab = createBottomTabNavigator()
-
+ 
 // @refresh reset
 const MainNavigator = () => {
   return (
